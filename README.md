@@ -1,3 +1,20 @@
+
+# Tourney Matches project (React/props)
+
+This project is about managing small tournaments (like Super Smash Bros)
+
+- The Goal
+The main focus of this project is to practice passing down props to children elements, get a better understanding of props.children, and practice playing with data structures.
+
+- What Kind Of Data?
+Since we are managing a tournament, it would make sense to have information about players and completed matches.
+
+- Player Data
+Each match has a number of related characteristics, so it makes sense to store the player data in an object. We may want to allow updates to a player's name or their gamer tag and so we should put all the players inside an object. This way, it will be easier to target a specific record for updates.
+
+- Match Data
+Each match has a number of related characteristics, so it makes sense to store the match data in an object. All the matches will be held in an array. This is because we expect to add new matches to the list, but we'll never need to update information about a completed match. So an array makes sense here.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
